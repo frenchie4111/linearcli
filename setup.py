@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "linearcli",
-    version = "1.0.0",
+    version = "1.0.1",
     author = "Mike Lyons",
     author_email = "mdl0394@gmail.com",
     license = "MIT",
@@ -16,7 +16,7 @@ setup(
     install_requires = [
         "requests",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.8",
     entry_points = """
         [console_scripts]
         linearcli=linearcli.linear:main
