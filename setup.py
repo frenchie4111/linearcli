@@ -8,7 +8,7 @@ setup(
     license = "MIT",
     description = "Simple CLI interface for linear task manager (https://linear.app)",
     long_description = "",
-    url = "<github url where the tool code will remain>",
+    url = "https://github.com/frenchie4111/linearcli",
     py_modules = [
         "linearcli"
     ],
